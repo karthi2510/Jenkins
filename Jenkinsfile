@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('java testing') {
+      steps {
+        sh 'java java1.java'
+      }
+    }
+
   }
 }
